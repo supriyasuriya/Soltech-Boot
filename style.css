@@ -328,4 +328,30 @@ body .section-1 .social_media_head .social_marketing_description {
     width: 100%;
     height: 100%;
   }
+}
+@media (max-width: 576px) {
+  .section-5 .sol-card {
+    width: auto !important;
+  }
+  .section-13 .Seamless {
+    width: auto !important;
+  }
+}
+@media (max-width: 420px) {
+  .section-1 .st-button {
+    text-align: center;
+  }
+}
+@media (max-width: 652px) {
+  .section-1 .social_media_head .social_marketing_heading_content {
+    width: 90% !important;
+  }
+}
+@media (max-width: 450px) {
+  .section-1 .social_media_head .social_marketing_description {
+    width: 100% !important;
+  }
+  .section-1 .social_media_head .social_marketing_heading_content {
+    font-size: 28px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

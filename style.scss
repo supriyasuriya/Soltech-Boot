@@ -301,12 +301,13 @@ body {
 
 }
 
-   @media (max-width:767.98px){
-    body{
-            padding: 0;
-            margin: 0;
+@media (max-width:767.98px) {
+    body {
+        padding: 0;
+        margin: 0;
     }
-     .section-1 .social_media_head .social_marketing_heading_content {
+
+    .section-1 .social_media_head .social_marketing_heading_content {
         width: 80%;
         font-size: 30.735px;
 
@@ -319,108 +320,165 @@ body {
     .section-4 .content h6 {
         text-align: center;
     }
+
     .section-4 .content h2 {
         text-align: center;
     }
-    .section-4 .content .para{
+
+    .section-4 .content .para {
         text-align: center;
         font-size: 15px !important;
     }
-    .section-5 .content h5{
+
+    .section-5 .content h5 {
         text-align: center;
     }
-    .section-7 .tablet img{
+
+    .section-7 .tablet img {
         width: 100%;
         height: 100%;
     }
-    .section-8 .section img{
+
+    .section-8 .section img {
         width: 100%;
     }
-    .section-10 .pro img{
+
+    .section-10 .pro img {
         width: 100%;
     }
+
     .section-16 .sec-16 {
         padding: 0 !important;
         margin: 0 !important;
     }
-    .section-16 .sec-16 img{
+
+    .section-16 .sec-16 img {
         width: 100%;
     }
-    .section-16 .sec{
+
+    .section-16 .sec {
         flex-direction: column;
     }
-    .section-16 .sec img{
+
+    .section-16 .sec img {
         width: 100%;
     }
-    .section-17 .sec-17{
+
+    .section-17 .sec-17 {
         margin-top: 0 !important;
         padding-top: 0 !important;
     }
-    .section-18 .main-content{
+
+    .section-18 .main-content {
         flex-direction: column;
     }
-    .section-18 .main-content .content-1{
+
+    .section-18 .main-content .content-1 {
         width: 100%;
         margin-left: 0;
     }
-    .section-18 .main-content .content-2{
+
+    .section-18 .main-content .content-2 {
         width: 100%;
         margin-left: 0;
     }
-    .section-20 .contents{
+
+    .section-20 .contents {
         margin-left: 5px !important;
         padding-left: 5px !important;
     }
-    .section-20 .content1{
+
+    .section-20 .content1 {
         margin-left: 5px !important;
         padding-left: 5px !important;
     }
-    .section-20 .content2{
+
+    .section-20 .content2 {
         margin-left: 5px !important;
         padding-left: 5px !important;
     }
-}
-@media (max-width: 575.98px) {
- .section-5 .card-content{
-    width: 50% !important;
- }
-.section-11 .sec-11{
-    display: flex;
-  .cards{
-    width: 50%;
- }
 }
 
+@media (max-width: 575.98px) {
+    .section-5 .card-content {
+        width: 50% !important;
+    }
+
+    .section-11 .sec-11 {
+        display: flex;
+
+        .cards {
+            width: 50%;
+        }
+    }
+
 }
+
 @media (min-width: 576px) {
-    .section-20 .secti-20{
+    .section-20 .secti-20 {
         display: none;
     }
 }
+
 @media (max-width: 576px) {
-    .section-20 .sec-20{
+    .section-20 .sec-20 {
         display: none;
     }
 }
+
 @media (max-width: 992px) {
-    .section-15 .laptop{
+    .section-15 .laptop {
         display: none;
     }
 }
-@media (max-width: 576px){
-    .section-15 .mobile-view{
+
+@media (max-width: 576px) {
+    .section-15 .mobile-view {
         display: none;
     }
-    .section-17 .content-img img{
+
+    .section-17 .content-img img {
         width: 100%;
         height: 100%;
     }
-    .section-14 .marketing-image img{
+
+    .section-14 .marketing-image img {
         width: 100%;
         height: 100%;
     }
-    .section-12 .image img{
+
+    .section-12 .image img {
         width: 100%;
         height: 100%;
     }
-} 
+}
+
+@media (max-width: 576px) {
+    .section-5 .sol-card {
+        width: auto !important;
+    }
+
+    .section-13 .Seamless {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .section-1 .st-button {
+        text-align: center;
+    }
+}
+
+@media (max-width: 652px) {
+    .section-1 .social_media_head .social_marketing_heading_content{
+        width: 90% !important;
+    }
+}
+@media (max-width: 450px){
+    .section-1 .social_media_head .social_marketing_description{
+        width: 100% !important;
+    }
+    .section-1 .social_media_head .social_marketing_heading_content{
+        font-size: 28px !important;
+    }
+}
