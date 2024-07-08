@@ -1215,39 +1215,67 @@
             </div>
         </div>
     </footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    data-bs-whatever="@fat">Get Started for Free!</button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Get Started for Free!</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <form>
-                                    <div class="mb-3">
-                                        <label for="recipient-name" class="col-form-label">Aliquam augue suscipit, luctus neque purus ipsum neque dolor primis libero</label>
-                                        <input type="text" placeholder="Enter Your Name*"  class="form-control" id="recipient-name">
+    <div class="section-22">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="modal fade show" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="modal-2"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header col-md-12">
+                                    <button type="button" class="btn-close btn-close-dark " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body col-md-12 text-center">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="modal-img col-md-5 d-sm-flex align-items-end">
+                                                <div class="bg-img w-100"></div>
+                                            </div>
+                                            <div class="modal-body-content col-md-7">
+                                                <h5 class="modal-title h5-lg" id="modal-2">Get Started for Free!</h5>
+                                                <label for="recipient-name" class="col-form-label">Aliquam augue
+                                                    suscipit,
+                                                    luctus neque purus ipsum neque dolor primis libero</label>
+                                                <form>
+                                                    <div class="mb-3 col-md-12">
+
+                                                        <input type="text" placeholder="Enter Your Name*"
+                                                            class="form-control" id="recipient-name" autocomplete="off"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3 col-md-12">
+                                                        <input type="email" placeholder="Enter Your E-mail*"
+                                                            class="form-control" id="recipient-name" autocomplete="off"
+                                                            required>
+                                                    </div>
+                                                    <div class="col-md-12 form-btn">
+                                                        <button type="submit"
+                                                            class="btn btn-primary text-center btn--theme hover--theme submit"
+                                                            data-bs-dismiss="modal">
+                                                            Get Started Now
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="mb-3">
-                                        <input type="email" placeholder="Enter Your E-mail*"  class="form-control" id="recipient-name">
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-primary text-center" data-bs-dismiss="modal">Get Started Now</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <script>
+            var modalToggle = document.getElementById('modal-2') // relatedTarget
+            var myModal = new bootstrap.Modal(modalToggle, {
+                keyboard: false
+            })
+
+            myModal.show(modalToggle)
+        </script>
     </div>
 </body>
 
