@@ -470,23 +470,26 @@ body {
 }
 
 @media (max-width: 652px) {
-    .section-1 .social_media_head .social_marketing_heading_content{
+    .section-1 .social_media_head .social_marketing_heading_content {
         width: 90% !important;
     }
 }
-@media (max-width: 450px){
-    .section-1 .social_media_head .social_marketing_description{
+
+@media (max-width: 450px) {
+    .section-1 .social_media_head .social_marketing_description {
         width: 100% !important;
     }
-    .section-1 .social_media_head .social_marketing_heading_content{
+
+    .section-1 .social_media_head .social_marketing_heading_content {
         font-size: 28px !important;
     }
 }
-.section-22 .bg-img{
+
+.section-22 .bg-img {
     background-image: url(../img/modal-request.jpg);
     background-position: left center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
